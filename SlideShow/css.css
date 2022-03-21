@@ -1,0 +1,25 @@
+.main-image{
+	width: 300px;
+	height: 400px;
+}
+
+body{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: lightgrey;
+}
+.bt-control{
+	width: 100px;
+	height: 50px;
+	border-radius: 30px;
+	border: 0px;
+	font-size: 20px;
+}
+
+.bt-control:hover{
+	background-color: grey;
+	color: white;
+}

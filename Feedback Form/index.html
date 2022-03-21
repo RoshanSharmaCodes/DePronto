@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="main">
+        <div class="Feedbackform">
+            <h2>Feedback Form</h2>
+            <form id="Feedback">
+                <div class="sec">
+                <label>Name:</label><br>
+                <input class="textinp" type="text" id="fname" name="fname" placeholder="Enter name" />
+                </div>
+                <div class="sec">
+                <label>Date:</label><br>
+                <input type="date" id="fdate" name="fdate"/>
+                </div>
+                <div class="sec">
+                <label>Feedback Title:</label><br>
+                <input class="textinp" type="text" id="ftitle" name="ftitle" placeholder="Enter feedback title" />
+                </div>
+                <div class="sec">
+                <label>Message Box:</label>
+                <textarea rows="10" cols="40" id="msg" name="msg">  </textarea>
+                </div>
+                <div class="sec">
+                <label>Programming Language:</label>
+                <br>
+                <label for="Java"> Java</label>
+                <input type="checkbox" id="language1" name="language1" value="Java">
+                <br>
+                <label for="Python"> Python</label>
+                <input type="checkbox" id="language2" name="language2" value="Python">
+                </div>
+                <div class="sec">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="Male">
+                <span id="male">Male</span>
+                <input type="radio" id="female" name="Female">
+                <span id="female">female</span>
+                </div>                
+            </form>
+        </div>
+        <button  class="submit" onclick="PrintData()">SUBMIT</button>
+    </div>
+</body>
+</html>

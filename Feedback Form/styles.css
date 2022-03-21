@@ -1,0 +1,72 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+.textinp{
+    height: 30px;
+    width: 200px;
+}
+
+label{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+
+}
+.feedbackform{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.5);
+    color: #fff;
+}
+#register{
+    margin: 40px;
+}
+label{
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+.submit{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(250,100,0,0.8);
+
+}
+.submit:hover{
+    opacity: 0.8;
+}
+
+.sec{
+    margin: 50px;
+}
+
+.main{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
